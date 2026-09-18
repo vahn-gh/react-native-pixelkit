@@ -1,14 +1,14 @@
-import { Text, View, StyleSheet } from 'react-native';
-import { multiply } from 'react-native-svg-pixel-ui';
+import { Text, View, StyleSheet } from 'react-native'
+import { multiply } from 'react-native-svg-pixel-ui'
 
-const result = multiply(3, 7);
+const result = multiply(3, 7)
 
 export default function App() {
   return (
     <View style={styles.container}>
       <Text>Result: {result}</Text>
     </View>
-  );
+  )
 }
 
 const styles = StyleSheet.create({
@@ -17,4 +17,4 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'center',
   },
-});
+})
