@@ -1,12 +1,12 @@
-# react-native-svg-pixel-ui
+# react-native-pixelkit
 
-A simple pixel UI library using svg componentsUI library using react-native-svg
+A simple pixel UI library
 
 ## Installation
 
 
 ```sh
-npm install react-native-svg-pixel-ui
+npm install react-native-pixelkit
 ```
 
 
@@ -14,11 +14,13 @@ npm install react-native-svg-pixel-ui
 
 
 ```js
-import { multiply } from 'react-native-svg-pixel-ui';
+import { PixelBox } from 'react-native-pixelkit';
 
 // ...
 
-const result = multiply(3, 7);
+<PixelBox options={{ backgroundColor: '#4caf50', bevel: true }}>
+  <Text>Hello</Text>
+</PixelBox>;
 ```
 
 

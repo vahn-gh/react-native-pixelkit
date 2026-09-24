@@ -2,12 +2,12 @@
   "compilerOptions": {
     "rootDir": ".",
     "paths": {
-      "react-native-svg-pixel-ui": ["./src/index"]
+      "react-native-pixelkit": ["./src/index"]
     },
     "allowUnreachableCode": false,
     "allowUnusedLabels": false,
     "customConditions": [
-      "react-native-svg-pixel-ui-source",
+      "react-native-pixelkit-source",
       "react-native-strict-api"
     ],
     "esModuleInterop": true,
@@ -26,7 +26,7 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "ESNext",
-    "verbatimModuleSyntax": true,
+    "verbatimModuleSyntax": false,
     "allowJs": true
   }
 }

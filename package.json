@@ -1,12 +1,12 @@
 {
-  "name": "react-native-svg-pixel-ui",
+  "name": "react-native-pixelkit",
   "version": "0.1.0",
   "description": "A simple pixel UI library using svg componentsUI library using react-native-svg",
   "main": "./lib/module/index.js",
   "types": "./lib/typescript/src/index.d.ts",
   "exports": {
     ".": {
-      "react-native-svg-pixel-ui-source": "./src/index.tsx",
+      "react-native-pixelkit-source": "./src/index.tsx",
       "types": "./lib/typescript/src/index.d.ts",
       "default": "./lib/module/index.js"
     },
@@ -32,7 +32,7 @@
     "!**/.*"
   ],
   "scripts": {
-    "example": "yarn workspace react-native-svg-pixel-ui-example",
+    "example": "yarn workspace react-native-pixelkit-example start",
     "clean": "del-cli android/build example/android/build example/android/app/build example/ios/build lib",
     "prepare": "bob build",
     "lint": "yarn lint:packagejson && yarn tsc && yarn _prettier --check && yarn lint:ox",
@@ -50,14 +50,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vahn-gh/react-native-svg-pixel-ui.git"
+    "url": "git+https://github.com/vahn-gh/react-native-pixelkit.git"
   },
   "author": "vahn-gh <wah4nya@gmail.com> (https://github.com/vahn-gh)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/vahn-gh/react-native-svg-pixel-ui/issues"
+    "url": "https://github.com/vahn-gh/react-native-pixelkit/issues"
   },
-  "homepage": "https://github.com/vahn-gh/react-native-svg-pixel-ui#readme",
+  "homepage": "https://github.com/vahn-gh/react-native-pixelkit#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
@@ -67,6 +67,7 @@
     "@react-native/babel-preset": "0.86.2",
     "@react-native/jest-preset": "0.86.2",
     "@release-it/conventional-changelog": "12.0.0",
+    "@shopify/react-native-skia": "2.12.0",
     "@types/react": "19.2.0",
     "commitlint": "21.2.1",
     "del-cli": "7.0.0",
@@ -85,6 +86,7 @@
     "typescript": "6.0.3"
   },
   "peerDependencies": {
+    "@shopify/react-native-skia": "2.12.0",
     "react": "*",
     "react-native": "*"
   },
