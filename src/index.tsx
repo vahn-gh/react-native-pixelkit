@@ -1,1 +1,1 @@
-export { multiply } from './multiply'
+export { PixelViewBox } from './components/PixelViewBox'
