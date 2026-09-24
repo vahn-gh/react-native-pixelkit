@@ -8046,6 +8046,31 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pixelkitexample@workspace:example":
+  version: 0.0.0-use.local
+  resolution: "pixelkitexample@workspace:example"
+  dependencies:
+    "@babel/core": "npm:7.25.2"
+    "@babel/preset-env": "npm:7.25.3"
+    "@babel/runtime": "npm:7.25.0"
+    "@react-native-community/cli": "npm:20.1.0"
+    "@react-native-community/cli-platform-android": "npm:20.1.0"
+    "@react-native-community/cli-platform-ios": "npm:20.1.0"
+    "@react-native/babel-preset": "npm:0.86.2"
+    "@react-native/jest-preset": "npm:0.86.2"
+    "@react-native/metro-config": "npm:0.86.2"
+    "@react-native/typescript-config": "npm:0.86.2"
+    "@types/react": "npm:19.2.0"
+    format: "npm:^0.2.2"
+    oxlint: "npm:1.85.0"
+    prettier: "npm:3.9.6"
+    react: "npm:19.2.3"
+    react-native: "npm:0.86.2"
+    react-native-builder-bob: "npm:0.43.0"
+    react-native-monorepo-config: "npm:0.4.0"
+  languageName: unknown
+  linkType: soft
+
 "pkg-dir@npm:^4.2.0":
   version: 4.2.0
   resolution: "pkg-dir@npm:4.2.0"
@@ -8293,32 +8318,6 @@ __metadata:
   checksum: 10c0/62e6e2ab859a2e0e5a4028b9f018043a803bfd35c62017a0ca834fc0ff389b5f9cca82c3bf5332d30644e9488e6144ebb0a94965c918d64fce5dbabe094163f8
   languageName: node
   linkType: hard
-
-"react-native-pixelkit-example@workspace:example":
-  version: 0.0.0-use.local
-  resolution: "react-native-pixelkit-example@workspace:example"
-  dependencies:
-    "@babel/core": "npm:7.25.2"
-    "@babel/preset-env": "npm:7.25.3"
-    "@babel/runtime": "npm:7.25.0"
-    "@react-native-community/cli": "npm:20.1.0"
-    "@react-native-community/cli-platform-android": "npm:20.1.0"
-    "@react-native-community/cli-platform-ios": "npm:20.1.0"
-    "@react-native/babel-preset": "npm:0.86.2"
-    "@react-native/jest-preset": "npm:0.86.2"
-    "@react-native/metro-config": "npm:0.86.2"
-    "@react-native/typescript-config": "npm:0.86.2"
-    "@shopify/react-native-skia": "npm:2.12.0"
-    "@types/react": "npm:19.2.0"
-    format: "npm:^0.2.2"
-    oxlint: "npm:1.85.0"
-    prettier: "npm:3.9.6"
-    react: "npm:19.2.3"
-    react-native: "npm:0.86.2"
-    react-native-builder-bob: "npm:0.43.0"
-    react-native-monorepo-config: "npm:0.4.0"
-  languageName: unknown
-  linkType: soft
 
 "react-native-pixelkit@workspace:.":
   version: 0.0.0-use.local

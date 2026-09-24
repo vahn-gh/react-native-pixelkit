@@ -1,5 +1,5 @@
 import { Text, View, StyleSheet } from 'react-native'
-import { multiply } from 'react-native-svg-pixel-ui'
+import { multiply } from 'react-native-pixelkit'
 
 const result = multiply(3, 7)
 
