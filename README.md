@@ -2,12 +2,19 @@
 
 A simple pixel UI library
 
-## Installation
+> [!WARNING]
+> This library is in active development and is **not published to npm yet**. The API may change without notice.
 
+## Trying it out
+
+Clone the repository, install dependencies and run the example app:
 
 ```sh
-npm install react-native-pixelkit
+yarn
+yarn example ios # or: yarn example android
 ```
+
+See [Development workflow](CONTRIBUTING.md#development-workflow) for more details.
 
 
 ## Usage
